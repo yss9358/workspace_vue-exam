@@ -1,6 +1,6 @@
 <template>
     <h1>{{maintitle}}</h1>
-    <h2>{{subtitle}}</h2>
+    <h2>{{subTitle}}</h2>
     
     <ol>
         <li>{{menus[0]}}</li>
@@ -8,6 +8,12 @@
         <li>{{menus[2]}}</li>
     </ol>
     
+    <ol>
+        <li v-bind:key="i" v-for="(menu, i) in menus">
+            {{menu}}
+        </li>
+    </ol>
+
     <table border="1">
         <thead>
             <th>이름</th>
@@ -40,7 +46,7 @@ export default{
     data() {
         return{
             maintitle: "vue문법",
-            subtitle: "데이터바인딩",
+            subTitle: "데이터바인딩",
             menus: ["게시판", "갤러리", "방명록"],
             personVo: {
                 no : 1,
