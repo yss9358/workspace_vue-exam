@@ -1,6 +1,8 @@
 <template>
     <h1>{{ title }}</h1>
     <h2>{{ subTitle }}</h2>
+
+    
 </template>
 
 <script>
@@ -9,8 +11,8 @@ export default{
     components:{},
     data(){
         return{
-            title : "Vue공부",
-            subTitle : "vue문법"
+            title : "Vue 공부",
+            subTitle : "vue 문법"
         }
     },
     methods:{},

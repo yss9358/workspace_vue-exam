@@ -12,7 +12,7 @@
                 <th>회사</th>
             </tr>
         </thead>
-        <thead>
+        <tbody>
             <!-- 임의로 i값을 줘서 키값으로 사용해줄 수있다 -->
             <tr v-bind:key="personVo.no" v-for="(personVo,i) in personList" >
                 <td>{{ i + 1 }}</td>
@@ -21,7 +21,7 @@
                 <td>{{ personVo.hp }}</td>
                 <td>{{ personVo.company }}</td>
             </tr>
-        </thead>
+        </tbody>
     </table>
     <button v-on:click="getList" type="button">데이터</button>        
 

@@ -3,8 +3,8 @@
     <h2>{{ subTitle }}</h2>
     <select name="telecom">
         <option value="">이동통신사</option>
-        <option value="SKT">SKT</option>
-        <option value="KT" selected="selected">KT</option>
+        <option value="SKT" selected="selected">SKT</option>
+        <option value="KT" >KT</option>
         <option value="LG">LG</option>
     </select>
     <br><br><br><br><br>

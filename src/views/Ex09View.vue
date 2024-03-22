@@ -19,7 +19,7 @@ export default{
         return {
             title: "Vue 공부",
             subtitle: "if문",
-            age: 70
+            age: 50
         } ;
     },
     methods:{},

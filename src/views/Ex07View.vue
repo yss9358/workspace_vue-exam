@@ -23,7 +23,7 @@
     <label>여행</label><input type="checkbox" name="hobby" value="trip" v-model="checked">
     <label>안녕</label><input type="checkbox" name="hobby" value="hi" v-model="checked">
     <label>zzz</label><input type="checkbox" name="hobby" value="sleep" v-model="checked">
-    <p>선택한 취미는 {{ checked }}</p>
+    <p>선택한 취미는 {{ checked }} </p>
 </template>
 <script>
 export default{
